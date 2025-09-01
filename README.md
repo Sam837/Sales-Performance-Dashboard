@@ -1,5 +1,6 @@
 # Project Title
 `Optimizing Direct Marketing Campaigns for Bank Term Deposit Subscriptions.`
+`Owner: Sam`
 
 `This project analyzes data from a Portuguese banking institution's direct marketing campaigns to identify key factors influencing term deposit subscriptions. The goal is to provide data-driven recommendations to optimize future marketing efforts and increase subscription rates.`
 
