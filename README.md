@@ -1,5 +1,7 @@
 # Project Title
-`This program that prepares and processes a dataset from a Portuguese banking institution that contains information about direct marketing campaigns (phone calls) of a Portuguese banking institution from www.archive.ics.uci.edu. The purpose of this program is to analyze and find out a way to increase term deposit subscription.`
+`Optimizing Direct Marketing Campaigns for Bank Term Deposit Subscriptions.`
+
+`This project analyzes data from a Portuguese banking institution's direct marketing campaigns to identify key factors influencing term deposit subscriptions. The goal is to provide data-driven recommendations to optimize future marketing efforts and increase subscription rates.`
 
 ## Repository Outline
 
@@ -7,7 +9,7 @@
 2. Sales_Performance_Dashboard_Sam.ipynb - Notebook containing data processing and analyze with python
 3. read.md - Project overview explanation
 4. cleaned_data.csv - Cleaned data
-5. url.txt - links for deployment and dataset
+5. url.txt - links for Dashboard Tableau and dataset
 6. combined.png - picture of values in the dataset
 7. LICENSE - MIT license
 
@@ -15,35 +17,56 @@
 ## Problem Background
 `A Portuguese bank uses direct marketing campaigns to promote financial products such as term deposits, which are crucial for securing stable funding. However, cold calling and broad-based outreach often lead to low conversion rates, wasting resources and missing potential customers. By analyzing past campaign data—including customer demographics, economic indicators, and call details—the bank can develop a predictive model to prioritize clients more likely to subscribe, thereby improving efficiency and profitability.`
 
-`The Portuguese banking institution aims to improve the effectiveness of its direct marketing campaigns by increasing the subscription rate for term deposits. Currently, the campaigns rely on phone calls, but the conversion rate is suboptimal. The goal is to leverage historical marketing data to identify high-propensity customers and refine targeting strategies to increase the subscription rate by 3% within one month.`
+`The Portuguese banking institution aims to improve the effectiveness of its direct marketing campaigns by increasing the subscription rate for term deposits. The primary objective of this project is to improve the effectiveness of direct marketing campaigns for a Portuguese banking institution. The analysis focuses on understanding which customer demographics and campaign features are most likely to lead to a term deposit subscription. By identifying these patterns, the project aims to help the bank increase its subscription rate by at least 3% within a month.`
 
 
 ## Project Output
 `The primary output of this project is to analyze and find out a way to increase term deposit subscription such as:`
 
-`- Visualizations: Charts and graphs (histograms, bar plots, box plots) to illustrate trends and patterns.`
+`- Perform an exploratory data analysis (EDA) to find patterns and insights.`
+    `- Visualizations: Charts and graphs (histograms, bar plots, box plots) to illustrate trends and patterns.`
+    `- Statistical Analysis: Tests to validate hypotheses.`
 
-`- Statistical Analysis: Tests to validate hypotheses.`
+`- Develop a sales performance dashboard to visualize key metrics.`
 
-`- Dashboard: Interactive elements to explore the data and insights.`
+`- Provide strategic recommendations to optimize future marketing campaigns.`
 
 ## Data
-`The dataset apartments_for_rent_classified_100K.csv contains information about apartments available for rent.`
+`The dataset used for this analysis contains information on phone-call-based direct marketing campaigns. It includes various customer attributes such as:`
 
-`Overall, it has 14 categoricals Dtype and 8 numericals Dtype with 14 strings, 5 floats, and 3 integers. There are 11 columns with missing values:'bedrooms', 'bathrooms', 'price', 'latitude', 'longitude', 'amenities', 'pets_allowed', 'price_display', 'address', 'cityname', & 'state' columns`
+`- Demographics: age, job, marital status, education`
+
+`- Financial: default status, average yearly balance, housing loan status`
+
+`- Campaign-related: contact method, last contact day and month, duration of contact, number of contacts during this campaign`
+
+`The raw_dataset.csv file, which uses a semicolon (;) as a delimiter, was cleaned and processed into cleaned_data.csv for the analysis.`
 
 
 ## Method
-`In this Apartment Rental Price Prediction project, We used a Random Forest Regression model, comparing both untuned (default parameters) and tuned (hyperparameter-optimized) versions. Other models were also in used KNN, SVM, Decision Tree, and Gradient Boosting Regressor.`
+`The analysis was performed in a Jupyter Notebook using Python. The methodology includes:'
+
+`- **Data Cleaning:** The raw data was cleaned to handle inconsistencies and prepare it for analysis.`
+
+`- **Exploratory Data Analysis (EDA):** The cleaned data was analyzed to identify trends related to demographics, contact methods, and campaign outcomes.`
+
+`- **Data Visualization:** A comprehensive dashboard was created to present key insights and performance metrics visually.`
+
+`- **Recommendations:** Based on the findings, strategic recommendations were developed to improve future campaign effectiveness.`
 
 ## Stacks
-`I am using python on VS Code and Huggingface to visualize the data. I am also using libraries python: pandas, numpy, scipy, seaborn, matplotlib, Pipeline, RandomForestRegressor, etc.. to help me modelization, analyze and visualize the data.`
+`The project uses the following tools and libraries:`
+
+`- **Python:** The primary programming language for the analysis.`
+
+`- **Jupyter Notebook:** The environment where the analysis and dashboard were developed.`
+
+`- **Pandas:** Used for data manipulation and cleaning.`
+
+`- **NumPy:** Used for numerical operations.`
+
+`- **Matplotlib/Seaborn:** Used for data visualization and dashboard creation.`
 
 ## Reference
 `https://archive.ics.uci.edu/dataset/222/bank+marketing - dataset`
 `https://public.tableau.com/app/profile/sam.wayne3539/viz/Book1_17502563939920/Main - Dashboard Tableau`
-
----
-
-**Referensi tambahan:**
-- None
